@@ -1,6 +1,5 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-import random
 g = nx.read_edgelist('facebook_combined.txt', nodetype=int, create_using=nx.Graph())
 edges_list = list(g.edges)
 nodes_list = list(g.nodes)
